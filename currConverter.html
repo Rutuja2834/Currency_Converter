@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currConverter.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+     <div id="container">
+      <div id="heading">
+       <h2>Currency Converter</h2>
+      </div>  
+      <form id="main">
+       <div id="amount">
+         <p id="p">Enter Amount</p>
+         <input value="1" type="text" id="amt" class="border">
+       </div>
+       <div id="countries">
+         <div id="c_m1">
+           <p>From</p> 
+           <div id="count" class="count1">
+            <img src="https://flagsapi.com/US/flat/64.png" id="flag"/>
+            <select name="from" id="sel" class="sel1">
+            </select>
+           </div> 
+         </div>
+         <i class="fa-solid fa-right-left" id="symbol"></i>
+         <div id="c_m2">
+           <p>To</p>
+           <div id="count" class="count2">
+            <img src="https://flagsapi.com/IN/flat/64.png" id="flag"/>
+            <select name="to" id="sel" class="sel2">
+            </select>
+           </div> 
+         </div>
+       </div> 
+         <div id="msg">1 USD = 87.37 INR</div>
+         <button id="exchange" class="border">Get Exchange Rate</button>
+      </form>
+     </div>
+    <script src="countries.js"></script> 
+    <script src="currConverter.js"></script>
+  </body>
+</html>
