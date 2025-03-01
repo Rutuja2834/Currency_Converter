@@ -1,4 +1,3 @@
-
 let countries= document.querySelectorAll("#countries select");
 let btn = document.querySelector("button");
 let fromCurr= document.querySelector(".count1 select");
