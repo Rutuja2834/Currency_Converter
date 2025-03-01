@@ -1,3 +1,4 @@
+//JS
 const countryList ={
     ARS: "AR",
     AUD: "AU",
