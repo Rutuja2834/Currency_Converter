@@ -12,7 +12,7 @@
 
 .border:hover{
     border: 2px solid rgb(179, 83, 205);
-}
+} 
 
 body{
     display: flex; 

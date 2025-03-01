@@ -11,7 +11,7 @@ for(let select of countries){
         newOption.value = Currcode;
         if(select.name === "from" && Currcode === "USD"){
             newOption.selected= "selected";
-        }else if(select.name === "to" && Currcode === "INR"){
+        }else if(select.name === "to" && Currcode === "INR"){  
             newOption.selected="selected";
         }
         select.append(newOption);
