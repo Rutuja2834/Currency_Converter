@@ -8,10 +8,6 @@ This web application allows users to convert currency amounts between two select
 
 *Note:* The exchange rate in this version is manually set. Future versions will integrate with a real-time API for accurate and up-to-date exchange rates.
 
-## Screenshot
-
-currencyConverter.png
-
 ## Usage
 
 1. Open the currConverter.html file in your web browser.
